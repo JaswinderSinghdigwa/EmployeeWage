@@ -2,7 +2,7 @@ package com.bl.employee;
 
 public class EmployeeWageComputation
 {
-    public static void main(String args[])
+    public static void calculateTotalWage()
     {
         final int PART_TIME = 1;
         final int FULL_TIME = 2;
@@ -36,5 +36,10 @@ public class EmployeeWageComputation
 
         }
         System.out.println("Total wage for a month is " + totalWage);
+    }
+
+    public static void main(String args[])
+    {
+        calculateTotalWage();
     }
 }
